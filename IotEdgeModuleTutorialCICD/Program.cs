@@ -83,7 +83,7 @@ namespace IotEdgeModuleTutorialCICD
                     }
                     await moduleClient.SendEventAsync("output1", pipeMessage);
 
-                    Console.WriteLine("Mensaje recivido mandado");
+                    Console.WriteLine("FUNCIONAAAAAAA");
                 }
             }
             return MessageResponse.Completed;
